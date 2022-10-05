@@ -1,0 +1,12 @@
+body {
+  font-family: 'Comic Sans MS';
+}
+
+#consola {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#map {
+  height: 600px;
+  width: 600px;
+}
