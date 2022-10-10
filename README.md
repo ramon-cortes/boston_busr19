@@ -17,7 +17,7 @@ Added seat availability, Latitude & Longitude info above the map.
 ### Important
 
 If the **occupancy status** reports null, the bus is probably not running. You would have to wait some time until the bus runs again.
-Added some code to look between bus[0] and bus[10] for the first active bus.
+Added some code to look between *bus[0]* and *bus[10]* for the first active bus. But still you may find no active bus.
 
 ### License information
 Most code obtained from MIT. Adjustments and additions by Ramon C
