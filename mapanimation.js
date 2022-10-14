@@ -24,7 +24,6 @@ async function run() {
   if (runCycles <= maxCycles) {
     //only run 10 times
     const locations = await getLocations();
-    console.log(locations);
     //Checks if bus is active. Tries 9 more buses
     while (locations[busNumber].attributes.occupancy_status == 'null' && busNumber <= 10) {
       busNumber++;      
